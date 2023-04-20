@@ -724,7 +724,7 @@
 		display: block;
 		margin: 0;
 	}
-	.btn-header, .menu a {
+	.btn-header, .menu a {  
 		font-size: 14px;
 	}
 	.menu-mobile .header__buttons {

@@ -157,14 +157,14 @@ form {
 	font-weight: 600;
 	border-color: #FEFBF5;
 }
-.menu a:hover {
+.menu a:hover { 
 	border-color: #FEFBF5;
 }
 .btn-header {
 	height: 60px;
 	padding: 0 13px;
 	margin-left: 20px;
-	display: inline-flex;
+	display: inline-flex; 
 	align-items: center;
 	justify-content: center;
 	text-align: center;
