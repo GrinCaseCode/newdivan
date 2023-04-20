@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Extra Light Italic BETA'), local('Inter-Extra-Light-Italic-BETA'),
+        url('../fonts/Inter-ExtraLightItalicBETA.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraLightItalicBETA.woff') format('woff'),
+        url('../fonts/Inter-ExtraLightItalicBETA.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Light BETA'), local('Inter-Light-BETA'),
+        url('../fonts/Inter-LightBETA.woff2') format('woff2'),
+        url('../fonts/Inter-LightBETA.woff') format('woff'),
+        url('../fonts/Inter-LightBETA.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+@font-face {
+	font-family: 'Inter';
+	src: local('Inter Regular'), local('Inter-Regular'),
+	url('../fonts/Inter-Regular.woff2') format('woff2'),
+	url('../fonts/Inter-Regular.woff') format('woff'),
+	url('../fonts/Inter-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter';
+	src: local('Inter Medium'), local('Inter-Medium'),
+	url('../fonts/Inter-Medium.woff2') format('woff2'),
+	url('../fonts/Inter-Medium.woff') format('woff'),
+	url('../fonts/Inter-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter';
+	src: local('Inter Semi Bold'), local('Inter-Semi-Bold'),
+	url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+	url('../fonts/Inter-SemiBold.woff') format('woff'),
+	url('../fonts/Inter-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter';
+	src: local('Inter Bold'), local('Inter-Bold'),
+	url('../fonts/Inter-Bold.woff2') format('woff2'),
+	url('../fonts/Inter-Bold.woff') format('woff'),
+	url('../fonts/Inter-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'TT Tsars';
+    src: local('TT Tsars B Regular'), local('TT-Tsars-B-Regular'),
+        url('../fonts/TTTsarsB-Regular.woff2') format('woff2'),
+        url('../fonts/TTTsarsB-Regular.woff') format('woff'),
+        url('../fonts/TTTsarsB-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'TT Tsars';
+    src: local('TT Tsars B Bold'), local('TT-Tsars-B-Bold'),
+        url('../fonts/TTTsarsB-Bold.woff2') format('woff2'),
+        url('../fonts/TTTsarsB-Bold.woff') format('woff'),
+        url('../fonts/TTTsarsB-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'TT Tsars';
+    src: local('TT Tsars B Black'), local('TT-Tsars-B-Black'),
+        url('../fonts/TTTsarsB-Black.woff2') format('woff2'),
+        url('../fonts/TTTsarsB-Black.woff') format('woff'),
+        url('../fonts/TTTsarsB-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
