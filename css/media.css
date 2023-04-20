@@ -897,6 +897,17 @@
 	.item-reason::before {
 		left: -11px;
 	}
+	.btn-page::after {
+		right: 9px;
+		bottom: 9px;
+	}
+	.row_services {
+		margin: 0 -9px;
+	}
+	.row_services > div {
+		padding: 0 9px;
+		margin-bottom: 18px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1017,6 +1028,27 @@
 		font-size: 30px;
 		line-height: 30px;
 	}
+	.row_services {
+		margin: 0 -5px;
+	}
+	.row_services > div {
+		padding: 0 5px;
+		margin-bottom: 12px;
+	}
+	.btn-page {
+    font-size: 14px;
+    height: 66px;
+    line-height: 16px;
+    padding: 0 9px;
+    padding-bottom: 5px;
+}
+.btn-page::after {
+    width: 60px;
+    height: 5px;
+    }
+    .row_services .title-section {
+    	padding-bottom: 14px;
+    }
 }
 
 /* Custom, iPhone Retina */
