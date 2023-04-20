@@ -160,7 +160,7 @@ form {
 .menu a:hover {
 	border-color: #FEFBF5;
 }
-.btn-heeader {
+.btn-header {
 	height: 60px;
 	padding: 0 13px;
 	margin-left: 20px;
@@ -177,28 +177,28 @@ form {
 	border: 1px solid #FEFBF5;
 	text-shadow: -1px 1px 0px #262512;
 }
-.btn-heeader:hover {
+.btn-header:hover {
 	background-color: #FEFBF5;
 	color: #3E401A;
 	text-shadow: 0px 0px 0px #262512;
 }
-.btn-heeader:hover img {
+.btn-header:hover img {
 	filter: invert(0.9) sepia(1) hue-rotate(16deg) saturate(2) brightness(1);
 }
-.btn-heeader img {
+.btn-header img {
 	margin-right: 12px;
 }
 .header__buttons {
 	display: flex;
 	align-items: center;
 }
-.btn-heeader_phone {
+.btn-header_phone {
 	font-size: 18px;
 	padding-right: 9px;
 	padding-left: 12px;
 	white-space: nowrap;
 }
-.btn-heeader_phone img {
+.btn-header_phone img {
 	margin-right: 11px;
 }
 

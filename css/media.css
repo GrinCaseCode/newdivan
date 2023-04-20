@@ -7,20 +7,20 @@
 	.menu {
 		margin-left: 40px;
 	}
-	.btn-heeader,
+	.btn-header,
 	.menu a {
 		font-size: 14px;
 	}
-	.btn-heeader_phone {
+	.btn-header_phone {
 		font-size: 16px;
 	}
-	.btn-heeader img {
+	.btn-header img {
 		max-width: 30px;
 	}
-	.btn-heeader_phone img {
+	.btn-header_phone img {
 		max-width: 25px;
 	}
-	.btn-heeader {
+	.btn-header {
 		margin-left: 15px;
 		height: 50px;
 	}
@@ -298,14 +298,14 @@
 	.menu {
 		margin-left: 25px;
 	}
-	.btn-heeader, .menu a {
+	.btn-header, .menu a {
 		font-size: 12px;
 	}
-	.btn-heeader {
+	.btn-header {
 		margin-left: 9px;
 		height: 42px;
 	}
-	.btn-heeader {
+	.btn-header {
 		padding: 0 9px;
 	}
 	.menu_haschild a::before {
@@ -313,13 +313,13 @@
 		height: 4px;
 		margin-right: 5px;
 	}
-	.btn-heeader img {
+	.btn-header img {
 		max-width: 23px;
 	}
-	.btn-heeader img {
+	.btn-header img {
 		margin-right: 6px;
 	}
-	.btn-heeader_phone img {
+	.btn-header_phone img {
 		max-width: 19px;
 		margin-right: 5px;
 	}
@@ -533,11 +533,11 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.header__wrapper .btn-heeader:not(.btn-heeader_phone),
+	.header__wrapper .btn-header:not(.btn-header_phone),
 	.header__wrapper .menu {
 		display: none;
 	}
-	.header__wrapper .btn-heeader_phone {
+	.header__wrapper .btn-header_phone {
 		border: none;
 		font-size: 0;
 		margin: 0;
@@ -547,7 +547,7 @@
 		margin-left: auto;
 		margin-right: 20px;
 	}
-	.header__wrapper  .btn-heeader_phone img {
+	.header__wrapper  .btn-header_phone img {
 		max-width: 23px;
 		margin-right: 0;
 	}
@@ -641,6 +641,7 @@
 	.footer-bottom {
 		border: none;
 		padding: 0;
+		margin-top: 30px;
 	}
 	.footer__wrapper {
 		text-align: center;
@@ -681,6 +682,7 @@
 	}
 	.footer {
 		padding-top: 30px;
+		padding-bottom: 45px;
 	}
 	.reviews {
 		padding-bottom: 46px;
@@ -722,18 +724,18 @@
 		display: block;
 		margin: 0;
 	}
-	.btn-heeader, .menu a {
+	.btn-header, .menu a {
 		font-size: 14px;
 	}
 	.menu-mobile .header__buttons {
-		padding-top: 20px;
+		padding-top: 35px;
 	}
 	.menu-mobile .header__buttons .btn-header {
 		margin: 0;
 		margin-right: 10px;
 	}
 	.menu-mobile .list-social {
-		padding-top: 15px;
+		padding-top: 30px;
 	}
 	.menu-mobile .list-social img {
 		filter: invert(1) sepia(1) hue-rotate(203deg) saturate(0) brightness(9);
