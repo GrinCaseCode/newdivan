@@ -108,6 +108,21 @@ form {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	position: relative;
+}
+.header__wrapper::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	top: -9px;
+	bottom: -9px;
+	width: 350px;
+	left: 200px;
+	pointer-events: none;
+	background-image: url(../img/line_header.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .menu {
 	margin-left: 100px;

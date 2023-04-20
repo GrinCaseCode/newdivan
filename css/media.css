@@ -277,6 +277,9 @@
 	.wrapper {
 		padding-top: 88px;
 	}
+	.header__wrapper::before {
+		left: 98px;
+	}
 }
 @media only screen and (max-width : 1340px) {
 	.social-vertical {
@@ -523,6 +526,9 @@
 	.wrapper {
 		padding-top: 75px;
 	}
+	.header__wrapper::before {
+		width: 242px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -735,6 +741,13 @@
 	.menu-mobile .list-social li {
 		margin-right: 15px;
 	}
+	.header__wrapper::before {
+		top: 0;
+		bottom: 0;
+	}
+	.header__wrapper::before {
+    width: 169px;
+}
 }
 
 /* Small Devices, Tablets */
