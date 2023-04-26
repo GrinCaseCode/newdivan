@@ -1,5 +1,14 @@
 @font-face {
     font-family: 'Inter';
+    src: local('Inter Thin Italic BETA'), local('Inter-Thin-Italic-BETA'),
+        url('../fonts/Inter-ThinItalicBETA.woff2') format('woff2'),
+        url('../fonts/Inter-ThinItalicBETA.woff') format('woff'),
+        url('../fonts/Inter-ThinItalicBETA.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+@font-face {
+    font-family: 'Inter';
     src: local('Inter Extra Light Italic BETA'), local('Inter-Extra-Light-Italic-BETA'),
         url('../fonts/Inter-ExtraLightItalicBETA.woff2') format('woff2'),
         url('../fonts/Inter-ExtraLightItalicBETA.woff') format('woff'),

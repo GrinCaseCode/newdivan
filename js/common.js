@@ -64,6 +64,26 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		]
 	});
 
+	$('.slider-works').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><img src="img/prev2.svg" alt="alt"><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><img src="img/next2.svg" alt="alt"><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				arrows: false,
+				dots: true,
+			}
+		}
+		]
+	});
+
 	{
 		if ($(window).width() < 992) { 
 			$(".footer__title").click(function() {
