@@ -1537,3 +1537,6 @@ filter: brightness(0) invert(1);
 	top: -213px;
 	right: -320px;
 }
+.slide-work__image img {
+	max-width: 615px;
+} 
